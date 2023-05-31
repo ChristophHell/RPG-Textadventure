@@ -7,6 +7,7 @@ public class Startklasse
     {
         String wiederholen = "j";
         Boolean sieg = false;
+
         Kampf kampf = new Kampf();
         Fähigkeiten faehigkeiten = new Fähigkeiten();
         Vector<Spieler> spielerListe = new Vector<>();
@@ -228,9 +229,9 @@ public class Startklasse
                 "\n" +
                 "Der Pilz bemerkt dich und dreht sich zu dir um. Er hat zwei kleine Augen und ein breites Grinsen auf seinem Hut. Er öffnet seinen Mund und spuckt eine grüne Flüssigkeit auf dich.\n" +
                 "Du weichst aus und siehst, wie die Flüssigkeit den Boden verätzt. Du erkennst, dass der Pilz feindlich ist und dich angreifen will. Du musst dich verteidigen oder flüchten.\n" +
-                "1) Angreifen\n2) Flüchten");
-        String userAuwahl = scanner.nextLine();
-        return userAuwahl;
+                "1') Angreifen\n2') Flüchten");
+        String userAuswahl = scanner.nextLine();
+        return userAuswahl;
     }
 
 /*

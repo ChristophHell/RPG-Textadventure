@@ -87,7 +87,7 @@ public class Kampf
         System.out.println("Vorher: "+i);
         System.out.println(Spieler.spielerListe.elementAt(0).toString());
         */
-        Spieler.spielerListe.elementAt(0).setiXP(Spieler.spielerListe.elementAt(0).getiXP()+i+kampfpilzLV+100);             // Hier wird der Spieler belohnt, Level wird erhöht. Evtl (kampfplilzLV/2)
+        Spieler.spielerListe.elementAt(0).setiXP(Spieler.spielerListe.elementAt(0).getiXP()+i+kampfpilzLV*2);             // Hier wird der Spieler belohnt, Level wird erhöht. Evtl (kampfplilzLV/2)
         //System.out.println("Nachher:");
         System.out.println("Dein XP-Wert steigt!\n");
         System.out.println(Spieler.spielerListe.elementAt(0).toString());
